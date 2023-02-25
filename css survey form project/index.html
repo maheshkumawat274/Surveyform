@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>survey form</title>
+    </head>
+    <style type="text/css">
+        #firstsection{
+            background-color: aqua;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            background-image: url(images/pic.jpg);
+            background-size: cover;
+        }
+        
+        #top{
+            background-color: aliceblue;
+            height: 20%;
+            width: 50%;
+            position: relative;
+            left: 25%;
+            text-align: center;
+            opacity: 0.8;
+
+        }
+        #secondsection{
+            background-color: black;
+            height: 230%;
+            width: 50%;
+            position: relative;
+            left: 25%;
+            opacity: 0.8;
+            color: white;
+            font-size: 25px;
+           
+            
+        }
+        
+    </style>
+    <body>
+        <div id="firstsection">
+           
+        </div>
+        <div id="top">
+            <p style="font-size: 30px; position: relative; top: 50px;">freeCodeCamp Survey Form</p>
+            <i style="position: relative; top: 30px; font-size: 20px;">Thank you for takipxng the time to help us umprove the platform</i>
+        </div>
+        <div id="secondsection">
+            <a style="position: relative; left: 10%; position: relative; top: 3%;">
+            Name<br><br>
+            <input style="width: 80%; height: 2%;" type="text" placeholder="Enter your name " name="name"> <br><br>
+            Email<br><br>
+            <input style="width: 80%; height: 2%;" type="text" name="email" placeholder="Enter your Email"><br><br>
+            Age(optional)<br><br>
+            <input style="width: 80%; height: 2%;" type="text" name="age" placeholder="Age" max="30" min="15"><br><br>
+            Which option best describes your current role?<br><br>
+            <select style="width: 80%; height: 2%; " >
+                <op>Select current role</op>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not to Say</option>
+                <option>Others</option>
+            </select><br><br>
+            Would you recommend freeCodeCamp to a friend?<br><br>
+            <input type="radio" name="radio">Definitely<br>
+            <input type="radio" name="radio">Maybe<br>
+            <input type="radio" name="radio">Not sure<br><br>
+            What is your favorite feature of freeCodeCamp?<br><br>
+            <select>
+                <option>Select an option</option>
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source</option>
+            </select><br><br>
+            What would you like to see improved?(CHeck all that apply)<br><br>
+            <input type="checkbox" name="check">Front-end Projects<br>
+            <input type="checkbox" name="check">Back-end Projects<br>
+            <input type="checkbox" name="check">Data Visualization<br>
+            <input type="checkbox" name="check">Challenges<br>
+            <input type="checkbox" name="check">Open Source Community<br>
+            <input type="checkbox" name="check">Gitter help rooms<br>
+            <input type="checkbox" name="check">Videos<br>
+            <input type="checkbox" name="check">City Meetups<br>
+            <input type="checkbox" name="check">Wiki<br>
+            <input type="checkbox" name="check">Forum<br>
+            <input type="checkbox" name="check">Additional Courses<br<br><br><br>
+            Any comments or suggestions?<br><br>
+            <textarea cols="80" rows="5" name="text" placeholder="Enter your comment here..."></textarea><br><br>
+            <input  style="width: 80%; height: 3%; background-color: rgb(13, 171, 92); color: white; font-size: 30px;" type="submit" name="submit" value="submit">
+        </a>
+        </div>
+    </body>
+</html>
